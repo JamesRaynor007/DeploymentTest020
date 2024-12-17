@@ -1,1 +1,1 @@
-web: uvicorn FuncionDia:app --host 0.0.0.0 --port ${PORT:-8000}
+web: uvicorn FuncionDiayMes:app --host 0.0.0.0 --port ${PORT:-8000}
